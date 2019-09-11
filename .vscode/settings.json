@@ -1,0 +1,27 @@
+{
+    "python.pythonPath": "/home/vagrant/env/bin/python3",
+    "python.linting.pylintEnabled": true,
+    
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".vscode": true,
+        "**/*.pyc": true,
+        "**/__pycache__/": true,
+        ".vagrant/": true,
+    },
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": "meta.function-call.generic.python",
+            "settings": {
+              "foreground": "#6693bf"
+            }
+          }
+        ]
+      }
+}
